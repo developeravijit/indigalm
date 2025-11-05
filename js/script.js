@@ -128,20 +128,17 @@ document.addEventListener("DOMContentLoaded", () => {
       delay: 0,
       disableOnInteraction: false,
     },
-    speed: 6000,
+    speed: 4000,
     breakpoints: {
       1024: {
-        // large screens
         slidesPerView: 3,
         spaceBetween: 30,
       },
       768: {
-        // tablets
         slidesPerView: 2,
         spaceBetween: 20,
       },
       576: {
-        // small devices
         slidesPerView: 1,
         spaceBetween: 15,
       },

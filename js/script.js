@@ -292,7 +292,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Number formatter (K / L)
   function formatNumber(num) {
-    if (num >= 100000) return Math.floor(num / 100000) + "L";
+    if (num >= 100000) return Math.floor(num / 100000) + "M";
     if (num >= 1000) return Math.floor(num / 1000) + "K";
     return num.toString();
   }

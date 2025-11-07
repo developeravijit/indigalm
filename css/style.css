@@ -8,9 +8,13 @@
 @import url("https://db.onlinewebfonts.com/c/87a0b96df9f33e523f2ebc6a48b02e7a?family=Larken+DEMO");
 
 
+@font-face {
+    font-family: 'Bellina';
+    src: url(../assets/Bellina/Bellina.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
 
-/* Bellina Font */
-@import url('https://fonts.cdnfonts.com/css/belina-demo');
 
 
 
@@ -21,7 +25,7 @@
     --playball-font: "Playball", cursive;
     --agaleoz-font: "Agaleoz", sans-serif;
     --larken-font: "Larken DEMO", serif;
-    --belina-font: 'Belina Demo', sans-serif;
+    --belina-font: 'Bellina', serif;
     --hdrTop-bg: #c8a77f;
     --active-txt-color: #f2dec5;
     --primary-color: #ffffff;
@@ -62,7 +66,8 @@ h1,
 h2,
 h3,
 h4,
-p {
+p,
+figure {
     padding: 0;
     margin: 0;
 }

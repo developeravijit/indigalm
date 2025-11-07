@@ -95,7 +95,7 @@ body {
 }
 
 .swiper-pagination-bullet {
-    width: 5%;
+    width: 15%;
     height: 1px;
     background: var(--border-color);
     opacity: .2;
@@ -106,12 +106,4 @@ body {
     background: var(--border-color);
     transform-origin: center;
     opacity: 1;
-}
-
-@media screen and (max-width:576px) {
-
-    /* Banner Section */
-    .swiper-pagination-bullet {
-        width: 10%;
-    }
 }

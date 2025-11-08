@@ -210,6 +210,10 @@ document.addEventListener("DOMContentLoaded", () => {
     spaceBetween: 30,
     loop: true,
     freeMode: true,
+    allowTouchMove: false,
+    simulateTouch: false,
+    grabCursor: false,
+    slideToClickedSlide: false,
     centeredSlides: true,
     effect: "coverflow",
     coverflowEffect: {

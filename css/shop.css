@@ -133,6 +133,7 @@ body {
     background: transparent;
     color: var(--shop-primary-color);
     font-size: 20px;
+    width: 100%;
 }
 
 .srch-input::placeholder {

@@ -1863,6 +1863,11 @@ textarea {
 }
 
 @media screen and (max-width: 1200px) {
+    /* Luxy */
+
+    .luxy-el {
+        transform: none !important;
+    }
 
     /* Banner Section */
     .left-bnrImg::after {
